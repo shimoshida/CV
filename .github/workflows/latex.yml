@@ -7,6 +7,6 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v1
       - name: Compile LaTeX document
-        uses: shimoshida/CV/.github/actions/latex@master
+        uses: xu-cheng/latex-action@master
         with:
           root_file: resume.tex
