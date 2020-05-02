@@ -13,4 +13,4 @@ jobs:
       - name: Upload pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./push.sh
+        run: chmod +x ./push.sh;./push.sh
