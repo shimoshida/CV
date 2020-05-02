@@ -11,4 +11,4 @@ jobs:
         with:
           root_file: resume.tex
       - name: Upload pdf
-        uses: xu-cheng/actions/upload-artifact@master
+        uses: actions/upload-artifact@master
