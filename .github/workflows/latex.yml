@@ -10,7 +10,9 @@ jobs:
         uses: xu-cheng/latex-action@master
         with:
           root_file: resume.tex
+      - run: mkdir -p pdf
       - name: Upload pdf
         uses: actions/upload-artifact@master
         with:
-          path: cv.pdf
+          name: cv
+          path: pdf/cv.pdf
