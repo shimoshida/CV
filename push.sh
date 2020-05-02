@@ -5,7 +5,7 @@ git config --global user.name "moshida"
 git clone https://github.com/shimoshida/CV.git
 cd CV
 
-git remote set-url origin https://shimoshida:${GITHUB_TOKEN}@github.com/CV.git
+git remote set-url origin https://shimoshida:${GITHUB_TOKEN}@github.com/shimoshida/CV.git
 git checkout pdf
 rm -rf ./*
 cp ../resume.pdf ./
