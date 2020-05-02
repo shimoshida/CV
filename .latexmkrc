@@ -1,1 +1,2 @@
-$pdflatex=q/xelatex -synctex=1 %O %S/
+$pdflatex = 'lualatex -file-line-error %O %S';
+$pdf_mode = 1;
