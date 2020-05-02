@@ -12,3 +12,6 @@ jobs:
           root_file: resume.tex
       - name: Upload pdf
         uses: actions/upload-artifact@master
+        with:
+          name: cv
+          path: cv/cv.pdf
